@@ -28,3 +28,8 @@
 
 - `flex-wrap`: based on screen size, whether to wrap content if space runs out.
   - `nowrap`(default), `wrap`, `wrap-reverse`
+
+- `align-items:` used to control the alignment of flex items in their perpendicular direction.
+  - useful when the height of each item is different
+  - stretch(default), center, flex-start, flex-end, baseline
+  - ![image](https://github.com/connectkushal/cssnotes/assets/19621775/d31b64e9-579c-45fe-8a6d-51b96c78b301)
