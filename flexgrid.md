@@ -33,3 +33,6 @@
   - useful when the height of each item is different
   - stretch(default), center, flex-start, flex-end, baseline
   - ![image](https://github.com/connectkushal/cssnotes/assets/19621775/d31b64e9-579c-45fe-8a6d-51b96c78b301)
+
+- `flex-direction`
+  - `row`(default), `column`, `row-reverse`, `column-reverse`
