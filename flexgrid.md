@@ -22,6 +22,7 @@
     - the dimensions, alignment, spacing, arrangement, responsiveness(behaviour based on screensize) //TODO: add as may as possible to this list.
    
 ### Flex properties
+#### Container
 - `justify-content:` used to control **spacing** of the flex items in the direction they are placed
   - flex-start(default), flex-end, center, space-between, space-around, space-evenly
   - ![image](https://github.com/connectkushal/cssnotes/assets/19621775/8165b1a9-4b7e-4558-8d6c-1e961a8d1d15)
@@ -36,3 +37,10 @@
 
 - `flex-direction`
   - `row`(default), `column`, `row-reverse`, `column-reverse`
+#### Items
+- `flex-grow`
+- `flex-shrink`
+- `flex-basis`
+  - `auto`(default) : the size is auto-calculated based on the properties **width** or **height**
+  - other value can be in `% , px , em or rem` similar to the width and height properties.
+  - The value can also be a keyword such as `min-content`, `fill` and so on
