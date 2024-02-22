@@ -10,7 +10,7 @@
 - `position:` , `display:`, `float:` used to create layout before flex //TODO: example code.
 
   ### Flexbox Concept
-  - Flexbox is a method to arrange elements **in one direction**, horizontally or vertically and control their dimensions, alignments, order of appearance and more.
+  - Flexbox is a method to arrange elements **in one direction**, horizontally or vertically.
   - Flexbox system has a **Flex Container** which has within it **Flex Item**
     - **flex container** is the parent element.
     - There should be **at least one** child element or **flex item**
