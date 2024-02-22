@@ -9,6 +9,8 @@
   - margins and padding used to control the space between the elements
 - `position:` , `display:`, `float:` used to create layout before flex //TODO: example code.
 
+  ### Example code
+  
   ### Flexbox Concept
   - Flexbox is a method to arrange elements **in one direction**, horizontally or vertically.
   - Flexbox system has a **Flex Container** which has within it **Flex Item**
@@ -20,6 +22,9 @@
    
 ### Flex properties
 #### Container
+- `display: flex`: makes the element a flexbox container
+  - the container itself will behave as a block element
+- `display: inline-flex`: container behaves as an inline element
 - `flex-direction`
   - `row`(default), `column`, `row-reverse`, `column-reverse`
 
@@ -34,6 +39,8 @@
   - useful when the height of each item is different
   - stretch(default), center, flex-start, flex-end, baseline
   - ![image](https://github.com/connectkushal/cssnotes/assets/19621775/d31b64e9-579c-45fe-8a6d-51b96c78b301)
+ 
+- `align-content`:
 
 #### Container properties shorthand
 - `flex-flow`: is a shorthand for setting both direction and wrap.
@@ -41,8 +48,18 @@
 
 #### Items
 - `flex-grow`
-- `flex-shrink`
+- `flex-shrink`: set the propotion wrt initial size, at which the element with shrink acording to screen size
+  - `1`(default), `0` for no shrinking.
 - `flex-basis`
   - `auto`(default) : the size is auto-calculated based on the properties **width** or **height**
   - other value can be in `% , px , em or rem` similar to the width and height properties.
   - The value can also be a keyword such as `min-content`, `fill` and so on
+- `align-self`: overrides the align-items property of the parent container for the flex-item it is applied to
+  - values same as `align-item`
+- `margin` and `margin-*`: where * can be top, bottom, left or right
+  - this can be used to extend margins to occupy the extra space
+  - `auto`,
+- `order`:
+  - `0`(default), to any number
+ 
+// TODO: find behaviour of the combination of values for flex-wrap, flex-grow, flex-shrink and flex-basis.
