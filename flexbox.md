@@ -35,12 +35,12 @@
   - flex-start(default), flex-end, center, space-between, space-around, space-evenly
   - ![image](https://github.com/connectkushal/cssnotes/assets/19621775/8165b1a9-4b7e-4558-8d6c-1e961a8d1d15)
 
-- `align-items:` used to control the alignment of flex items in their perpendicular direction.
+- `align-items:` used to control the alignment of flex items in their perpendicular direction which is called `cross-axis`.
   - useful when the height of each item is different
   - stretch(default), center, flex-start, flex-end, baseline
   - ![image](https://github.com/connectkushal/cssnotes/assets/19621775/d31b64e9-579c-45fe-8a6d-51b96c78b301)
  
-- `align-content`:
+- `align-content`: for setting alignment of content that is multi-row, eg with wrap. // find more use cases
 
 #### Container properties shorthand
 - `flex-flow`: is a shorthand for setting both direction and wrap.
@@ -48,17 +48,22 @@
 
 #### Items
 - `flex-grow`
+  
 - `flex-shrink`: set the propotion wrt initial size, at which the element with shrink acording to screen size
   - `1`(default), `0` for no shrinking.
+    
 - `flex-basis`
   - `auto`(default) : the size is auto-calculated based on the properties **width** or **height**
   - other value can be in `% , px , em or rem` similar to the width and height properties.
   - The value can also be a keyword such as `min-content`, `fill` and so on
+    
 - `align-self`: overrides the align-items property of the parent container for the flex-item it is applied to
   - values same as `align-item`
+    
 - `margin` and `margin-*`: where * can be top, bottom, left or right
   - this can be used to extend margins to occupy the extra space
   - `auto`,
+    
 - `order`:
   - `0`(default), to any number
  
