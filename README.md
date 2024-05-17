@@ -2,7 +2,7 @@
 
 - This repo has some notes on css, sass, frameworks based on sass like bulma and bootstrap5, tools/plugins for efficient coding.
 - I made them for a quick revision when I'm using css after some gap.
-- When designing webpages after , it is quicker to go through some pointers before starting to design, rather than googling small things inbetween which breaks the flow.
+- When designing webpages after, it is quicker to go through some pointers before starting to design, rather than googling small things inbetween which breaks the flow.
 
 ---
 
