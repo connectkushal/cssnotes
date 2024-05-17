@@ -10,7 +10,9 @@ When designing webpages after , it is quicker to go through some pointers before
 ##### Simple Setup
 - `npm i -g sass`
 -  vscode plugins: liveserver
--  then use liveserver plugin on vscode from index.html in the starter project and have `sass -w input.scss output.css` on the terminal
+-  Usage:
+  - run liveserver in vscode from index.html
+  - have `sass -w input.scss output.css` on the terminal
 
 ##### Using vscode
 - `npm i -g vite sass`
