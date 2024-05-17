@@ -4,7 +4,7 @@ This repo has some notes on css, sass, frameworks based on sass like bulma and b
 
 I made them for a quick revision when I'm using css after some gap.
 
-It is quicker to go through some css pointers beforehand rather than googling small things when building something using after a long time.
+When using css/sass after a long time, it is quicker to go through some pointers before starting to design, rather than googling small things inbetween which breaks the flow.
 
 #### DevEnv
 ##### Simple Setup
