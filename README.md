@@ -2,9 +2,9 @@
 
 This repo has some notes on css, sass, frameworks based on sass like bulma and bootstrap5, tools/plugins for efficient coding.
 
-These are meant for a quick revision when using css after some gap.
+I made them for a quick revision when I'm using css after some gap.
 
-I find it quicker to go through some pointers on common concepts rather than googling small things when building something on the frontend after a long time.
+It is quicker to go through some css pointers beforehand rather than googling small things when building something using after a long time.
 
 #### DevEnv
 ##### Simple Setup
