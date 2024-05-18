@@ -9,11 +9,12 @@
 #### DevEnv
 ##### Simple setup
 - `npm i -g sass`
--  vscode plugins: liveserver
--  Usage:
+- vscode plugins: liveserver
+- Usage:
   - run liveserver in vscode from index.html
-  - have `sass -w input.scss output.css` on the terminal
+  - have `sass -w input.scss output.css` running on the terminal
 
 ##### Using vite
 - `npm i -g vite sass`
 - `vite run dev`
+- Usage:
