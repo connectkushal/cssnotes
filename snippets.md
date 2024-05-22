@@ -1,15 +1,15 @@
-## Misc CSS snippets
+### Misc CSS snippets
 
 generic html
 ```html
 <div class="container">
   <div class="item">
-      Center of the div
+      Some random text content lorem ipsum et al
   </div>
 </div>
 ```
 
-- ### Centering a div
+- #### Centering a div
 ```css
 .container {
   display: flex;
@@ -29,7 +29,7 @@ or
 }
 ```
 
-- ### Full page content
+- #### Full page content
 ```css
 .container{
   width: 100%;
@@ -37,3 +37,10 @@ or
   background-color: somecolor;
 }
 ```
+- #### Responsive page width without flexbox
+  ```css
+  .container {
+    margin: 0 auto;
+    width: 80%
+  }
+  ```
