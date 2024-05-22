@@ -37,7 +37,7 @@ or
   background-color: somecolor;
 }
 ```
-- #### Responsive page width without flexbox
+- #### Responsive page without flexbox
   ```css
   .container {
     margin: 0 auto;
