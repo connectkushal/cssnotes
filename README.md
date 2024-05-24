@@ -1,7 +1,7 @@
 ### CSS Notes
 
-- This repo has some notes on css, sass, frameworks based on sass like bulma and bootstrap5, tools/plugins for efficient coding.
-- I made them for a quick revision when I'm using css after some gap.
+- This repo has some of my notes on css, sass, frameworks based on sass like bulma and bootstrap5, tools/plugins for efficient coding.
+- It is for a quick revision when I'm using css after some gap.
 
 ---
 
