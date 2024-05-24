@@ -3,6 +3,9 @@
 #### Index
 - [Setup](#setup)
 - [Units](#units)
+ 
+
+---
 
 ##### Setup 
 without build tools
@@ -12,10 +15,11 @@ without build tools
 
 ##### Setup with vite
 - `npm i -g vite sass`
-- add link:css, href=`path/to/main.scss` or `app.scss`
+- to index.html, add link:css with href=`path/to/main.scss` or `app.scss`
 - `vite run dev`
-  - or run `vite run build` then liveserver plugin
+  - OR run `vite run build` then liveserver plugin
 
+---
 #### Units
 - 1em = browser default font size (usually 16px)
 - 
