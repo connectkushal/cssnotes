@@ -1,0 +1,15 @@
+- The need for websites to be device agnostic
+  - contrasts, colors, responsiveness
+- Clients controls configurations
+  - browser types, fontsize, screen orientations, screen size
+
+--- 
+- Css has to be adaptive
+- Css describes the intent instead of the outcome, which can be overridden by clients.
+- Need to be aware of the relationships between
+  - viewport and elements
+  - parent and its element
+  - sibling elements
+  - Example
+    - is an element defining width? is the parent defining the width ? is the child's width a percent of the parents? is it causing overflow
+- The relationships is controlled by a given elements **formatting context**
