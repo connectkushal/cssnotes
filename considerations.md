@@ -4,7 +4,7 @@
   - browser types, fontsize, screen orientations, screen size
 
 --- 
-- Css has to be adaptive
+- Css has to be adaptive to clients
 - Css describes the intent instead of the outcome, which can be overridden by clients.
 - Need to be aware of the relationships between
   - viewport and elements
@@ -12,4 +12,8 @@
   - sibling elements
   - Example
     - is an element defining width? is the parent defining the width ? is the child's width a percent of the parents? is it causing overflow
-- The relationships is controlled by a given elements **formatting context**
+- The relationships is controlled/defined by a given elements **formatting context**
+- Layouts are all about relationships between elements
+- Also css has a tight relationship with html
+- global scope, isolated scope
+  - design systems
