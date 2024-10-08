@@ -18,6 +18,24 @@ without build tools
 - to index.html, add link:css with href=`path/to/main.scss` or `app.scss`
 - `vite run dev`
   - OR run `vite run build` then liveserver plugin
+- add this to `vite.config.js` to use the modern compiler instead of the default legacy
+  
+  - ```
+    import { defineConfig } from 'vite'
+
+    export default defineConfig({
+      css: {
+          preprocessorOptions: {
+              scss: {
+                  api: "modern"
+              }
+          }
+      }
+    })
+    ```
+  -  `import { defineConfig } from 'vite'` // this is for intellisense
+  -  `api: "modern"` // vite's options. other options like quiet, quietDeps from sass as --quiet-deps, check sass official website docs
+  
 
 ---
 #### Units
