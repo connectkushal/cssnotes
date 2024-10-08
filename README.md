@@ -13,14 +13,16 @@ without build tools
 - `sass -w input.scss output.css` running on the terminal
 - vscode plugin liveserver from `index.html`
 
-##### Setup with vite
+with vite
 - `npm i -g vite sass`
 - to index.html, add link:css with href=`path/to/main.scss` or `app.scss`
 - `vite run dev`
   - OR run `vite run build` then liveserver plugin
-- add this to `vite.config.js` to use the modern compiler instead of the default legacy
-  
-  - ```
+    
+**Notes for vite setup**
+- to avoid sass warning messages, add this config to `vite.config.js` 
+    
+    ```
     import { defineConfig } from 'vite'
 
     export default defineConfig({
@@ -33,10 +35,11 @@ without build tools
       }
     })
     ```
-  -  `import { defineConfig } from 'vite'` // this is for intellisense
-  -  `api: "modern"` // vite's options. other options like quiet, quietDeps from sass as --quiet-deps, check sass official website docs
-  
-
+   -  `import { defineConfig } from 'vite'` // this is for editor's intellisense
+   -  `api: "modern"` // vite's options not part of sass-cli, the default is set to `"legacy"`
+   -  other options used in vite to config sass, like `quietDeps:true` is actually `--quiet-deps` from the sass cli, check sass official docs accordingly.
+- `package.json` should have `type="module"` to avoid warning messages from vite
+    
 ---
 #### Units
 - 1em = browser default font size (usually 16px)
