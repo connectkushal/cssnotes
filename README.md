@@ -10,9 +10,7 @@
 ---
 
 ##### Setup
-common
-- `mkdir <project_name> && cd <project_name>`
-- `npm init -y && npm pkg set type="module"`
+- inside your project directory, run `npm init -y && npm pkg set type="module"`
 
 without build tools
 - `npm i -g sass`
