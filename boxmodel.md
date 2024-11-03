@@ -2,7 +2,7 @@
 ---
 
 ### box model
-
+- margin > border > padding > content < padding < border < margin
 - default behaviour, the `width` property sets the width of the `content`
 <img src="https://github.com/user-attachments/assets/a8a8f4ca-636d-43f8-8ac1-1fa7094a1080" height="225">
 
