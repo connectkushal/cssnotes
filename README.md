@@ -1,10 +1,17 @@
 ### Notes on css and sass
 
 #### Index
+
 - [Setup](#setup)
-- [Units](https://github.com/connectkushal/cssnotes/blob/main/units.md)
+- Basics
+  - [Vocabulary](https://github.com/connectkushal/cssnotes/blob/main/vocabulary.md)
+  - [Units](https://github.com/connectkushal/cssnotes/blob/main/units.md)
+- Layouts
+  - [Box Model](https://github.com/connectkushal/cssnotes/blob/main/boxmodel.md)
+  - [Flexbox](https://github.com/connectkushal/cssnotes/blob/main/flexbox.md)
+  - [Grid]() 
 - [Snippets]()
-- [Vocabulary]()
+
  
 
 ---
