@@ -4,4 +4,6 @@
   - Browser defaults are **NOT** inherited
 - Nothing related to **layout** is inherited
   - `margin, padding, height, width, position`
-  
+- These elements do not inherit by default, they use browser defaults
+  - `<button>`, `,<input>`, `<optgroup>`, `<select>`, `<textarea>` // form related
+  - when we want to make them inherit, use `font-family: inherit;`
