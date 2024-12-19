@@ -27,3 +27,14 @@
       font-weight: inherit;
     }
     ```
+### misc notes
+- on chorme, size of h1 inside `article` `aside` `nav` `section` is overridden by user-agent style sheet. Set `h1` size explicitly to use inherited values from parent(or body/html)
+  - ```css
+    body {
+      font-size: 1.123rem;
+    }
+
+    h1 {
+      font-size: 6rem;
+    }
+    ```
