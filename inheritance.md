@@ -1,7 +1,7 @@
 - Anything related to **typography** is inherited
   - `font-size, font-family, text-decoration, color, etc`
   - because of this it is common to place such rules on `body` or `html` tag
-  - ![{80A1CAD2-4051-4312-B774-1810C18C7F36}](https://github.com/user-attachments/assets/8e0bcf8c-696e-458f-970a-9d4084b39f81)
+  - ![{F0C68D81-AEB7-4841-A29D-9696A1BF4099}](https://github.com/user-attachments/assets/4a0874e8-d5e0-4c74-9e04-56b0bed11dd4)
   - Browser defaults are **NOT** inherited
 - Nothing related to **layout** is inherited
   - `margin, padding, height, width, position`
