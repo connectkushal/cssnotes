@@ -4,6 +4,7 @@
 #### Notes
 - usually the default font size of browsers is 16px
 - 1em = default size (usually 16)
+- `line-height` is unitless
 
 -
   |em   |px  |
