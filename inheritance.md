@@ -5,5 +5,6 @@
 - Nothing related to **layout** is inherited
   - `margin, padding, height, width, position`
 - These elements do not inherit by default, they use browser defaults
-  - `<button>`, `,<input>`, `<optgroup>`, `<select>`, `<textarea>` // form related
+  - `<button>` `<input>` `<optgroup>` `<select>` `<textarea>` // form related
   - when we want to make them inherit, use `font-family: inherit;`
+  - ![{6679A4A1-CFEE-4A8A-9D33-7127C7D57569}](https://github.com/user-attachments/assets/251f2e56-d7be-4db0-9c3e-ccc96f035097)
