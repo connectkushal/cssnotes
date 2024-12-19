@@ -7,7 +7,7 @@
   - `font-size, font-family, text-decoration, color, etc`
   - because of this it is common to place such rules on `body` or `html` tag
   - ```css
-    html{
+    html {
       font-family: 'some-font', sans-serif;
       font-size: 1.125rem;
       font-weight: 400;
@@ -39,10 +39,10 @@
     }
     ```
 ### misc notes
-- on chorme, size of h1 inside `article` `aside` `nav` `section` is overridden by user-agent style sheet. Set `h1` size explicitly to use inherited values from parent(or body/html)
+- on chorme, size of h1 inside `article` `aside` `nav` `section` is overridden by user-agent style sheet. Set `h1` properties explicitly to use own style.
   - ```css
     body {
-      font-size: 1.123rem;
+      font-size: 1.125rem; // will not be inherited by h1 in chrome
     }
 
     h1 {
