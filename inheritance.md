@@ -39,7 +39,7 @@
     }
     ```
 ### misc notes
-- on chorme, size of h1 inside `article` `aside` `nav` `section` is overridden by user-agent style sheet. Set `h1` properties explicitly to use own style.
+- on chorme, size of h1 inside `article` `aside` `nav` `section` is overridden by user agent stylesheet. Set `h1` properties explicitly to use own style.
   - ```css
     body {
       font-size: 1.125rem; // will not be inherited by h1 in chrome
@@ -47,5 +47,12 @@
 
     h1 {
       font-size: 6rem;
+    }
+    ```
+- check for user agent stylesheet's margin on different elements
+  - eg in chrome `h1` and `p` elements some margins and have to be set to 0 if it affects user styles
+  - ```css
+    h1 {
+      margin: 0;
     }
     ```
