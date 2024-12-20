@@ -41,9 +41,9 @@ or
 }
 ```
 - #### Responsive page without flexbox
-  ```css
-  .container {
-    margin: 0 auto;
-    width: 80%
-  }
-  ```
+```css
+.container {
+  margin: 0 auto;
+  width: 80%
+}
+ ```
