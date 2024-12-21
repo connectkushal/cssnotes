@@ -2,12 +2,12 @@
 ---
 
 ### Introduction
-- the structure of modern css is guided by mostly these reasons:
-- css has to be adaptive to website clients
-  - websites to be device agnostic, responsive
-  - consistent look and feel in contrasts, colors, typography
-- Clients controls configurations
-  - browser types, fontsize, screen orientations, screen size, themes(dark/light)
+- the structure of modern css is mostly guided by:
+  - css has to be adaptive to website clients
+    - websites to be device agnostic, responsive
+    - consistent look and feel in contrasts, colors, typography
+  - Clients controls configurations
+    - browser types, fontsize, screen orientations, screen size, themes(dark/light)
 
 - Keeping the above in mind, css should describe the intent instead of the outcome, which can be overridden by clients.
 - Be aware of the relationships between
