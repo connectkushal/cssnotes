@@ -3,7 +3,7 @@
 #### Index
 
 - [Setup](#setup)
-- [Introduction](https://github.com/connectkushal/cssnotes/blob/main/introduction.md 
+- [Introduction](https://github.com/connectkushal/cssnotes/blob/main/introduction.md)
 - Basics
   - [Vocabulary](https://github.com/connectkushal/cssnotes/blob/main/vocabulary.md)
   - [Units](https://github.com/connectkushal/cssnotes/blob/main/units.md)
