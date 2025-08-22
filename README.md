@@ -8,6 +8,7 @@ This repo contains periodically updated notes on whatever I am learning about cs
 - Basics
   - [Vocabulary](https://github.com/connectkushal/cssnotes/blob/main/vocabulary.md)
   - [Units](https://github.com/connectkushal/cssnotes/blob/main/units.md)
+  - [Inheritance](https://github.com/connectkushal/cssnotes/blob/main/inheritance.md)
 - Layouts
   - [Box Model](https://github.com/connectkushal/cssnotes/blob/main/boxmodel.md)
   - [Flexbox](https://github.com/connectkushal/cssnotes/blob/main/flexbox.md)
