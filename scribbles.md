@@ -8,11 +8,13 @@
   - For large headers overriding it to between 0.9 to 1.2 appears a good fit
   - all caps title 0.8 to 0.9
   - subtitle 1.2 or 1.4 between (title and body)
+- setting temporary background: anyColor helps in setting layout
 - Try
   - colors #414141 in body, #7d7d7d for subtitle
   - font-family "PT Serif", serif; for body, "Cinzel", serif for h1
   - margin for header 6rem 0, and h1 0 with font weight 900
-  - to avoid title or subtitle spreading to the screen width for larger screens set in header max-width: 75rem with margins: 6rem auto
+  - to avoid title or subtitle spreading to the screen width for larger screens set in header max-width: 75rem with margins: 6rem auto and padding: 0 2rem
     - the auto centers the text by setting side margins automatically on both sides
+    - the 2rem in padding will keep a gap between the edge of screen and the text
 
 - selecting vs inheriting property
