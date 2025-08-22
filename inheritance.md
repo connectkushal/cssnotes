@@ -14,6 +14,7 @@
       line-height: 1.7;
     }
     ```
+  - Because it is inherited, it is also one of the most overridden protperty types in css  
   - Browser defaults are **NOT** inherited
     
 - Nothing related to **layout** is inherited
