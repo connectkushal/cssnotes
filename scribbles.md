@@ -5,4 +5,5 @@
 - `line-height` one of the few unitless properties
   - `line-height: 0.9` means 0.9 is relative to the `font-size`, or like `0.9em`
 - For majority of the smaller text line-height of 1.6 looks good so setting in `head` saves efforts.
-  - For large headers overriding it to between 0.9 to 1.2 appears a good fit 
+  - For large headers overriding it to between 0.9 to 1.2 appears a good fit
+  - all caps title 0.8 to 0.9
