@@ -4,6 +4,15 @@
 - firefox's debugger has a more clean debugger imo
 - `line-height` one of the few unitless properties
   - `line-height: 0.9` means 0.9 is relative to the `font-size`, or like `0.9em`
-- For majority of the smaller text line-height of 1.6 looks good so setting in `head` saves efforts.
+- For majority of the smaller text line-height of 1.5, 1.6 looks good so setting in `head` saves efforts.
   - For large headers overriding it to between 0.9 to 1.2 appears a good fit
   - all caps title 0.8 to 0.9
+  - subtitle 1.2 or 1.4 between (title and body)
+- Try
+  - colors #414141 in body, #7d7d7d for subtitle
+  - font-family "PT Serif", serif; for body, "Cinzel", serif for h1
+  - margin for header 6rem 0, and h1 0 with font weight 900
+  - to avoid title or subtitle spreading to the screen width for larger screens set in header max-width: 75rem with margins: 6rem auto
+    - the auto centers the text by setting side margins automatically on both sides
+
+- selecting vs inheriting property
