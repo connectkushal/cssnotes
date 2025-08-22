@@ -5,7 +5,9 @@
 - usually the default font size of browsers is 16px
 - 1em = default size (usually 16)
 - `line-height` is unitless, it is relative to the `font-size`, like `em`
-  - eg for `line-height: 1.5` and `font-size: 6rem`, line height is actually 1.5 * 6rem 
+  - eg for `line-height: 1.5` and `font-size: 6rem`, line height is actually 1.5 * 6rem
+- rem is calculated from the root that would be html so usually avoid setting font-size in html if the css has properties assuming 16px as default size
+  - set in html only in things like media queries to scale things
 
 -
   |em   |px  |
