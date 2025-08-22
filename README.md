@@ -1,6 +1,5 @@
 [WIP]
-
-### Notes on css and sass
+This repo contains periodically updated notes on whatever I am learning about css, sass, css frameworks and related topics. There are also pointers on things i have encountered while trying out stuff, be it errors, some discovery, tips from others, etc. The language and style is for personal revision, hence some parts may be grammatically incorrect or out of context.
 
 #### Index
 
@@ -50,6 +49,6 @@ with vite
     })
     ```
    -  `import { defineConfig } from 'vite'` // this is for editor's intellisense
-   -  `api: "modern"` // vite's options not part of sass-cli, the default is set to `"legacy"`
+   -  `api: "modern"` // this is part of vite's code/options, not of sass-cli. Default is set to `"legacy"`
    -  other options used in vite to config sass, like `quietDeps:true` is actually `--quiet-deps` from the sass cli, check sass official docs accordingly.
 - `package.json` should have `type="module"` to avoid warning messages from vite
