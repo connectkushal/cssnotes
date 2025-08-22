@@ -2,3 +2,7 @@
   - basics should be kept in mind to avoid unintended behaviours.
 - chrome debugger shows the user agent stylesheets which makes it easy to see if any browser defaults are being applied
 - firefox's debugger has a more clean debugger imo
+- `line-height` one of the few unitless properties
+  - `line-height: 0.9` means 0.9 is relative to the `font-size`, or like `0.9em`
+- For majority of the smaller text line-height of 1.6 looks good so setting in `head` saves efforts.
+  - For large headers overriding it to between 0.9 to 1.2 appears a good fit 
