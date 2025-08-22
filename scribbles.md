@@ -1,7 +1,7 @@
 - There is a lot of overriding that happens in css, and most of the time it has to do with typography.
   - basics should be kept in mind to avoid unintended behaviours.
 - chrome debugger shows the user agent stylesheets which makes it easy to see if any browser defaults are being applied
-- firefox's debugger has a more clean debugger imo
+- firefox's debugger has a more clean debugger imo also good for reading inherited and overriding styles
 - `line-height` one of the few unitless properties
   - `line-height: 0.9` means 0.9 is relative to the `font-size`, or like `0.9em`
 - For majority of the smaller text line-height of 1.5, 1.6 looks good so setting in `head` saves efforts.
@@ -10,7 +10,7 @@
   - subtitle 1.2 or 1.4 between (title and body)
 - setting temporary background: anyColor helps in setting layout
 - Try
-  - colors #414141 in body, #7d7d7d for subtitle
+  - colors #414141 in body, #7d7d7d for subtitle, #ca5e10 for a or links
   - font-family "PT Serif", serif; for body, "Cinzel", serif for h1
   - margin for header 6rem 0, and h1 0 with font weight 900
   - to avoid title or subtitle spreading to the screen width for larger screens set in header max-width: 75rem with margins: 6rem auto and padding: 0 2rem
