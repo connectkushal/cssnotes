@@ -32,3 +32,4 @@
     in the example above, the "Hello" will have red backgroung istead of yellow because of the descendant selector (.card .button) having higher specificity
     - works on any level of descendant, child, grand-child
     - for direct descendant use .card > .button
+- [more on this](https://chatgpt.com/share/68ac1588-f53c-800c-91ab-774630116a46)
