@@ -17,6 +17,7 @@
     - the auto centers the text by setting side margins automatically on both sides
     - the 2rem in padding will keep a gap between the edge of screen and the text
 
+- [online tool to check and compare specificity](https://specificity.keegan.st)
 - selecting vs inheriting property
 - descendant selector
   - ```
@@ -26,6 +27,6 @@
 
     <html><div class=card><div class="button button--light"> Hello </div></div></div></html>
     ```
-    in the example above, the Hello show yellow color instead of red because of the descendant selector having higher precedence
+    in the example above, the "Hello" will have red backgroung istead of yellow because of the descendant selector (.card .button) having higher specificity
     - works on any level of descendant, child, grand-child
     - for direct descendant use .card > .button
