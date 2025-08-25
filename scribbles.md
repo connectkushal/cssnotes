@@ -33,3 +33,5 @@
     - works on any level of descendant, child, grand-child
     - for direct descendant use .card > .button
 - [more on this](https://chatgpt.com/share/68ac1588-f53c-800c-91ab-774630116a46)
+- inline-block >> the padding set to such items do not add to the total in the box model // rough pointers
+  - .button{display: block} vs display: inline-block >> block will stretch the content to the whole width where as inline-block will stretch as much as the content only
