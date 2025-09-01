@@ -35,3 +35,17 @@
 - [more on this](https://chatgpt.com/share/68ac1588-f53c-800c-91ab-774630116a46)
 - inline-block >> the padding set to such items do not add to the total in the box model // rough pointers
   - .button{display: block} vs display: inline-block >> block will stretch the content to the whole width where as inline-block will stretch as much as the content only
+- inline elements span, links, em, strong
+  - go one next to another instead of on over the other like a stack(depending on the writing mode)
+- block level elements can have either block elements or inline elements, not both.
+- html creates anonymous boxes around things that are not explicitly defined as block on inline
+  - ```
+    <html>
+      <div>
+      This is some text
+      <p> followed by some more text </p>
+      and more and more text
+      </div>
+    </html>
+    ``` 
+    In this example the first line and the second line are wrapped around an anonymous box by the browser and the 3 lines act as separate blocks.
