@@ -39,7 +39,7 @@
   - go one next to another instead of on over the other like a stack(depending on the writing mode)
 - block level elements can have either block elements or inline elements, not both.
 - html creates anonymous boxes around things that are not explicitly defined as block on inline
-  - ```
+  - ```html
     <html>
       <div>
       This is some text
@@ -49,3 +49,4 @@
     </html>
     ``` 
     In this example the first line and the second line are wrapped around an anonymous box by the browser and the 3 lines act as separate blocks.
+- elements inside a block formatting context will go on top of one another (even if there is room on the side)
